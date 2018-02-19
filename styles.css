@@ -1,0 +1,121 @@
+html * {
+  font-family: 'Trebuchet MS', 'Helvetica', sans-serif;
+  color: #2d2d2d;
+}
+
+/* STYLING */
+
+.cursive {
+  font-family: 'Caveat', cursive;
+  color: black;
+}
+
+.post_it {
+  background: #fdffcc;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.75);
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid #717351;
+}
+
+#IUCN_endangered {
+  color: #cc6633;
+  font-weight: bold;
+}
+
+/* ELEMENTS */
+
+.animal_card {
+  width: 450px;
+  background-image: url("card_background.jpg");
+  background-size: cover;
+  background-position: center;
+  border: 2px black solid;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px #bababa;
+}
+
+.animal_name {
+  width: 75%;
+  text-align: center;
+  font-size: 100px;
+  margin: auto;
+    margin-top: 10px;
+  transform: rotate(-1deg);
+}
+
+.polaroid {
+}
+
+.polaroid_image {
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.75);
+  width: 300px;
+  /* Polaroid effect */
+  border: 8px #ededed solid;
+    border-bottom: 40px #ededed solid;
+  transform:rotate(5deg);
+  /* to centre image */
+  display: block;
+  margin: auto;
+}
+
+.polaroid_text {
+  font-weight: bold;
+  font-size: 24px;
+  transform: rotate(5deg);
+  position: relative;
+    left: 100px;
+    top: -50px;
+    margin-bottom: -50px;
+}
+
+.animal_text {
+  margin: 5px;
+  padding: 10px;
+  border: 2px ridge white;
+  border-radius: 20px;
+}
+
+.animal_fact {
+  height: 75px;
+  transform:  rotate(-1deg);
+  font-style: italic;
+  text-align: justify;
+  text-align-last: center; /* centres last line of text */
+}
+
+.animal_fact p {
+  margin-top: 8px;
+}
+
+.fact_symbol {
+  height: 90px;
+  position: relative;
+    left: -8px;
+    top: -10px;
+  float: left;
+}
+
+.animal_list {
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid #3c3c3c;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+  list-style-type: none;
+  text-align: justify;
+  background: white;
+  transform: rotate(2deg);
+}
+
+.animal_list li {
+  border-bottom: 1px #829cb4 solid;
+}
+
+.animal_label {
+  font-weight: bold;
+  color: #000;
+}
+
+.animal_description {
+  transform: rotate(-2deg);
+}
